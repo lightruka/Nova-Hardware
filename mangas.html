@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayon Mangas - Nova Hardware</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigation (Identique à l'accueil) -->
+    <header class="site-header">
+        <div class="logo-container">
+            <a href="index.html" class="logo">Nova Hardware</a>
+        </div>
+        <button class="burger-menu" aria-label="Ouvrir le menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="main-navigation">
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="univers.html">Univers</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="arrivages.html">Arrivages</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <a href="#footer-infos" class="btn btn-primary">Horaires & Accès</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Fil d'ariane (Breadcrumbs) -->
+        <div class="breadcrumbs" style="padding: 1rem 5%; font-size: 0.9rem; opacity: 0.7;">
+            <nav aria-label="Fil d'ariane">
+                <a href="index.html" style="color: inherit; text-decoration: none;">Accueil</a> &gt;
+                <a href="univers.html" style="color: inherit; text-decoration: none;">Univers</a> &gt;
+                <span aria-current="page" style="font-weight: 600; color: #fff;">Rayon Mangas</span>
+            </nav>
+        </div>
+
+        <!-- Hero Section de la catégorie -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <span class="badge"
+                    style="display: inline-block; background: #e91e63; color: white; padding: 0.4rem 1rem; border-radius: 20px; font-weight: 600; margin-bottom: 1.5rem; text-transform: uppercase; font-size: 0.8rem; box-shadow: 0 0 10px rgba(233, 30, 99, 0.5);">
+                    🚀 Arrivages toutes les semaines
+                </span>
+                <h1 class="hero-title">Rayon Mangas & Tomes</h1>
+                <p class="hero-subtitle">Plongez dans les univers fascinants du Japon. Des shonens cultes aux seinen les
+                    plus sombres, trouvez les tomes qui manquent à votre collection.</p>
+            </div>
+        </section>
+
+        <!-- Section Les Incontournables / En Vedette -->
+        <section class="univers-section">
+            <div class="section-header">
+                <h2 class="section-title">Les Incontournables</h2>
+                <p class="section-description">Notre sélection des pépites du moment, directement en rayon.</p>
+            </div>
+            <!-- On réutilise la grille des univers pour afficher les produits de façon cohérente -->
+            <div class="univers-grid">
+                <!-- Produit 1 -->
+                <article class="univers-card">
+                    <div
+                        style="height: 200px; background: rgba(255,255,255,0.05); border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: rgba(255,255,255,0.3);">Image Produit</span>
+                    </div>
+                    <h3 class="card-title">One Piece - Tome 105</h3>
+                    <p class="card-description">État : <strong>Neuf</strong></p>
+                    <p style="color: #4CAF50; font-weight: 600; font-size: 0.9rem; margin-top: 0.5rem;">✓ Disponible en
+                        magasin</p>
+                </article>
+                <!-- Produit 2 -->
+                <article class="univers-card">
+                    <div
+                        style="height: 200px; background: rgba(255,255,255,0.05); border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: rgba(255,255,255,0.3);">Image Produit</span>
+                    </div>
+                    <h3 class="card-title">Berserk - Édition Deluxe</h3>
+                    <p class="card-description">État : <strong>Occasion</strong></p>
+                    <p style="color: #4CAF50; font-weight: 600; font-size: 0.9rem; margin-top: 0.5rem;">✓ Disponible en
+                        magasin</p>
+                </article>
+                <!-- Produit 3 -->
+                <article class="univers-card">
+                    <div
+                        style="height: 200px; background: rgba(255,255,255,0.05); border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: rgba(255,255,255,0.3);">Image Produit</span>
+                    </div>
+                    <h3 class="card-title">Jujutsu Kaisen - Coffret</h3>
+                    <p class="card-description">État : <strong>Neuf</strong></p>
+                    <p style="color: #4CAF50; font-weight: 600; font-size: 0.9rem; margin-top: 0.5rem;">✓ Disponible en
+                        magasin</p>
+                </article>
+                <!-- Produit 4 -->
+                <article class="univers-card">
+                    <div
+                        style="height: 200px; background: rgba(255,255,255,0.05); border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: rgba(255,255,255,0.3);">Image Produit</span>
+                    </div>
+                    <h3 class="card-title">Akira - Intégrale</h3>
+                    <p class="card-description">État : <strong>Occasion (Très bon)</strong></p>
+                    <p style="color: #4CAF50; font-weight: 600; font-size: 0.9rem; margin-top: 0.5rem;">✓ Disponible en
+                        magasin</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section Marques & Licences phares -->
+        <section class="actus-section">
+            <div class="section-header">
+                <h2 class="section-title">Licences Phares en Rayon</h2>
+            </div>
+            <div
+                style="text-align: center; max-width: 800px; margin: 0 auto; padding: 2rem; background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+                <p style="font-size: 1.2rem; line-height: 2.2; font-weight: 600; letter-spacing: 1.5px; color: #ddd;">
+                    ONE PIECE &nbsp;•&nbsp; NARUTO &nbsp;•&nbsp; DRAGON BALL &nbsp;•&nbsp; BERSERK<br>
+                    ATTACK ON TITAN &nbsp;•&nbsp; MY HERO ACADEMIA<br>
+                    JUJUTSU KAISEN &nbsp;•&nbsp; DEMON SLAYER
+                </p>
+            </div>
+        </section>
+
+        <!-- Section Services Dédiés au Rayon -->
+        <section class="services-section">
+            <div class="section-header">
+                <h2 class="section-title">Notre Service Dédié</h2>
+            </div>
+            <!-- On centre l'encadré unique pour l'esthétique -->
+            <div class="services-container" style="justify-content: center;">
+                <article class="service-block" style="max-width: 600px; text-align: center;">
+                    <h3 class="service-title">On rachète vos anciens mangas !</h3>
+                    <p class="service-description">Vous souhaitez faire de la place dans vos bibliothèques ? Ramenez vos
+                        tomes en bon état en boutique, nous les reprenons en cash ou en bon d'achat pour vos prochaines
+                        lectures.</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer (Identique à l'accueil) -->
+    <footer id="footer-infos" class="site-footer">
+        <div class="footer-content">
+            <div class="footer-infos">
+                <h3 class="footer-title">Nova Hardware</h3>
+                <p class="address">123 Rue de la Technologie, 75000 Cyberville</p>
+            </div>
+            <div class="footer-horaires">
+                <h3 class="footer-title">Horaires d'ouverture</h3>
+                <ul class="horaires-list">
+                    <li>Lundi : 14h - 19h</li>
+                    <li>Mardi au Samedi : 10h - 19h</li>
+                    <li>Dimanche : Fermé</li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h3 class="footer-title">Suivez-nous</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="Facebook">Facebook</a>
+                    <a href="#" class="social-icon" aria-label="Twitter">Twitter</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nova Hardware. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
